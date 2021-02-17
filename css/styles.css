@@ -33,6 +33,11 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
+.link,
+.link-auth{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -86,9 +91,6 @@ header {
 
 .navigate .auth-nav {
   margin-left: 301px;
-}
-
-.navigate .auth-nav {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -153,8 +155,7 @@ header {
 .auth-nav .link-auth:hover,
 .auth-nav .link-auth:focus {
   color: var(--accent-color--);
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
-    outline: 0;
+  outline: 0;
 }
 
 /*hero*/
@@ -415,7 +416,7 @@ header {
   background-color: var(--accent-color--);
   fill:var(--wite-color--);
   outline: 0;
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);}
+}
 
 
 .regular h2{
@@ -446,6 +447,7 @@ header {
   height: 90px;
   justify-content: center;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular a:focus,
@@ -453,7 +455,6 @@ header {
   border-color: var(--accent-color--);
   fill:var(--accent-color--);
   outline: 0;
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*footer*/
 
@@ -516,12 +517,12 @@ margin-right: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-footer a:focus,
 .social-icons-footer a:hover {
   background-color:var(--accent-color--);
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0;
 }
 
@@ -529,8 +530,8 @@ margin-right: 10px;
   color: var(--wite-color--);
 }
 
+
 .logo:focus{
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0;
 }
 
@@ -570,6 +571,8 @@ margin-right: 10px;
   flex-wrap: wrap;
   justify-content: center;
   margin: -15px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .portfolio-conteiner li {
@@ -581,7 +584,6 @@ margin-right: 10px;
 .portfolio-conteiner a:focus{
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
     outline: 0;
 }
 
@@ -615,7 +617,7 @@ margin-right: 10px;
   color: #FFFFFF;
   background: rgba(33, 150, 243, 0.9);
   top: 100%;
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 63px 24px;
 }
 .description{
@@ -630,7 +632,6 @@ margin-right: 10px;
 .portfolio-conteiner a:hover .portfolio-text,
 .portfolio-conteiner a:focus .portfolio-text{
   top: 0;
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*кнопки портфолио навигация*/
 
@@ -647,6 +648,7 @@ margin-right: 10px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-buton:hover,
@@ -656,8 +658,7 @@ margin-right: 10px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1); 
-   outline: 0;
+  outline: 0;
 }
 
 /*Список Робот*/
@@ -754,15 +755,15 @@ align-items: center;
  }
 
  .input-two a{
-   text-decoration: underline;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 12px;
-   line-height: 1.16;
-   letter-spacing: 0.01em;
-   margin-top: 10px;
-   margin-bottom: 4px;
+  text-decoration: underline;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  margin-top: 10px;
+  margin-bottom: 4px;
  }
 
  .modal p{
@@ -823,9 +824,10 @@ align-items: center;
   top: 8px;
   right: 8px;
   position: absolute;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .close-btn:focus{
-  transition: 250ms top cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
 .is-hidden{
