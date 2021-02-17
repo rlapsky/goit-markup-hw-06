@@ -288,7 +288,7 @@
       <form class="modal">
         <label for="name">
           Имя
-          <div class="test">
+          <div class="modal-section">
             <input class="input-first" type="name" name="name">
             <svg class="modal-form-icon" height="12" width="12">
               <use href="./images/symbol-defs.svg#icon-Vector"></use>
@@ -297,7 +297,7 @@
         </label>
         <label for="tel">
           Телефон
-          <div class="test">
+          <div class="modal-section">
             <input class="input-first" type="tel" name="tel">
             <svg class="modal-form-icon" height="13" width="13">
               <use href="./images/symbol-defs.svg#icon-Vector-1"></use>
@@ -306,22 +306,31 @@
         </label>
         <label for=email>
           Почта
-          <div class="test">
+          <div class="modal-section">
             <input class="input-first" type="email" name="email">
             <svg class="modal-form-icon" height="12" width="15">
               <use href="./images/symbol-defs.svg#icon-Vector-2"></use>
-            </svg>
+            </svg>  
           </div>
         </label>
         <label for="feedback">
           Комментарий
+          <div class="modal-section-feedback">
           <textarea name="feedback"  placeholder="Введите текст"></textarea>
+        </div>
         </label>
-        <label for="checkbox" class="input-two">
-          <input type="checkbox" name="contact" checked />
-          <p>Соглашаюсь с рассылкой и принимаю</p><a>Условия договора</a>
+
+
+        <div class="checkbox">
+        <label for="checkbox" class="check-label">
+          <input id="checkbox" type="checkbox" class="check-input" name="contact"/>
+          <span class="check-icon"></span>
+          Соглашаюсь с рассылкой и принимаю<a>Условия договора</a>
+        </div>
         </label>
-        <button type="submit" class="">Отправить</button>
+
+
+        <button type="submit">Отправить</button>
       </form>
     </div>
   </div>
